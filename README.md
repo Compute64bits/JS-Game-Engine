@@ -30,9 +30,8 @@
 
             myGame.rect(15, 15, 200, 100, "cyan");
 
-            if(myGame.pointer()["click"]){
+            if(myGame.pointer(true)["click"]){   // myGame.pointer(reset = true); (for reset click variable)
                 size += 3;
-                myGame.pointer(true); // pointer(reset = true); (for reset click variable)
             }
 
             myGame.circle(
