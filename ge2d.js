@@ -1,5 +1,4 @@
 class Game{
-  
     constructor(id){
         self.canvas = document.getElementById(id);
         self.ctx = canvas.getContext("2d");
@@ -40,15 +39,13 @@ class Game{
     }
 
     pointer(reset=false){
-        if(reset){
-            self.click=false;
-        };
-      
-        return {
-          x: self.pointer_x, 
-          y: self.pointer_y,
-          click: self.click
-         }
+        var d = {x: self.pointer_x, 
+                 y: self.pointer_y,
+                 click: self.click}
+
+        if(reset){self.click=false;};
+        
+        return d
     }
 
     rect(x1, y1, x2, y2, color){
