@@ -16,7 +16,6 @@
     </canvas>
 
     <script src="ge2d.js"></script>
-
     <script>
         var myGame = new Game("canvas");
 
