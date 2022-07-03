@@ -1,6 +1,6 @@
 # ge2d [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-*Simple game engine for canvas in js.*
+*Simple 2D game engine for js canvas*
 
 ## Example of code
 
